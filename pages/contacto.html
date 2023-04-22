@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li>
+          <a href="ellas.html">Ellas</a>
+          <ul class="subMenu">
+            <li>Remeras</li>
+            <li>Pantalones</li>
+            <li>Abrigos</li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="ellos.html">Ellos</a>
+          <ul class="subMenu">
+            <li>Remeras</li>
+            <li>Pantalones</li>
+            <li>Abrigos</li>
+          </ul>
+        </li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Representa el contenido principal del <body> se puede usar solo una vez por cada pagina -->
+
+    <form class="formulario">
+      <!-- Parte del formulario -->
+
+      <div>
+        <!-- Nos sirve para dividir, no tiene ningun peso semantico -->
+
+        <label
+          for="nombre">Nombre:</label><!-- la etiqueta label sirve para etiquetar un elemento,nos dice que trabaja en conjunto con x elemento -->
+
+        <input type="text" name="nombre" />
+      </div>
+
+      <div> <!-- es un elemento de bloque -->
+        <label for="apellido">Apellido:</label><!-- con el name vamos a etiequetar con que trabaja el label -->
+        <input type="text" name="apellido" /><!-- son los ingreso de texto -->
+      </div>
+
+      <div>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" />
+      </div>
+
+      <div>
+        <label for="mensaje">Deja tu mensaje</label>
+        <textarea name="mensaje" cols="40" rows="10"></textarea>
+      </div>
+
+      <div>
+        <input type="button" value="Holi" />
+        <!-- nos va a servir en js -->
+
+        <input type="reset" value="Limpiar campos" /><!-- para borrar todo -->
+
+        <input type="submit" value="Enviar" />
+        <!-- para enviar el formulario -->
+      </div>
+    </form>
+  </main>
+
+
+  <footer>
+
+
+    <ul class="redesSociales">
+      <li>
+        <h5>INSTAGRAM</h5> 
+        <a href="https://instagram.com/renovatuoutfit_?igshid=YmMyMTA2M2Y=">
+          <img src="../images/Instagram.png" alt="logoInstagram">
+        </a>
+      </li>
+
+      <li>
+        <H5>ENVIOS</H5>
+        <img src="../images/camioncito.png" alt="logoEnvio">
+      </li>
+
+      <li>
+        <h5>MEDIOS DE PAGO</h5> <!-- espacio para  -->
+        <!-- <img src="./images/cardpay.png" alt="medioDePago"> -->
+        <img src="../images/visapng.png" alt="visa">
+      </li>
+
+      <li>
+        <h5>CONTACTANOS</h5> <!-- espacio para poner un link de wpp -->
+        <img src="../images/whatsapp.png" alt="wpp">
+      </li>
+    </ul>
+  </footer>
+  </footer>
+</body>
+
+</html>
