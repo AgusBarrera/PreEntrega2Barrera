@@ -81,6 +81,13 @@ ul {
 }
 
 /* Aca estilamos las imagenes de los productos */
+
+.contenedorFotos {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 3, 1fr;
+}
+
 .fotoproducto {
     width: 500px;
     height: 600px;
@@ -93,6 +100,12 @@ ul {
 .fotos {
     text-align: center;
 }
+
+
+
+
+
+
 
 /* SE ESTILA LA PARTE DE CONTACTO */
 
