@@ -9,85 +9,84 @@
   <title>Contacto</title>
 
   <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+
+  <!-- link de bootStrap -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- link propio -->
+  <link rel="stylesheet" href="../css/style.css" />
+
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul class="menu">
-        <li><a href="../index.html">Inicio</a></li>
-        <li>
-          <a href="ellas.html">Ellas</a>
+    <nav class="navBar">
+      <ul class="navBarList">
+        <li class="navBarItem">
+          <a class="navLink" href="../index.html"> Inicio</a>
+        </li>
+
+        <li class="navBarItem">
+          <a class="navLink" href="productos.html">Productos </a>
           <ul class="subMenu">
-            <li>Remeras</li>
-            <li>Pantalones</li>
-            <li>Abrigos</li>
+            <li class="subMenuItem" a href="Remeras"> Remeras</li>
+            <li class="subMenuItem" a href="Pantalones">Pantalones</li>
+            <li class="subMenuItem" a href="Abrigos">Abrigos</li>
           </ul>
         </li>
 
-        <li>
-          <a href="ellos.html">Ellos</a>
-          <ul class="subMenu">
-            <li>Remeras</li>
-            <li>Pantalones</li>
-            <li>Abrigos</li>
-          </ul>
+        <li class="navBarItem">
+          <a class="navLink" href="nosotros.html"> Nosotros </a>
         </li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li class="navBarItem">
+          <a class="navLink active" href="contacto.html"> Contacto </a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <!-- Representa el contenido principal del <body> se puede usar solo una vez por cada pagina -->
 
-    <form class="formulario">
-      <!-- Parte del formulario -->
+    <section>
 
-      <div>
-        <!-- Nos sirve para dividir, no tiene ningun peso semantico -->
+      <form action="">
+        <h1 class="Titleform">Contáctanos</h1>
+        <div>
+          <label for="name">Nombre</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="surname">Apellido</label>
+          <input type="text" id="surname">
+        </div>
+        <div>
+          <label for="mail">Mail</label>
+          <input type="email" id="mail">
+        </div>
+        <div>
+          <label for="phone">Telefono</label>
+          <input type="text" id="phone">
+        </div>
+        <div>
+          <label for="textarea">Mensaje</label>
+          <input type="text" id="textarea">
+          <button class="submitbutton" type="submit"> Enviar </button>
+        </div>
 
-        <label
-          for="nombre">Nombre:</label><!-- la etiqueta label sirve para etiquetar un elemento,nos dice que trabaja en conjunto con x elemento -->
-
-        <input type="text" name="nombre" />
-      </div>
-
-      <div> <!-- es un elemento de bloque -->
-        <label for="apellido">Apellido:</label><!-- con el name vamos a etiequetar con que trabaja el label -->
-        <input type="text" name="apellido" /><!-- son los ingreso de texto -->
-      </div>
-
-      <div>
-        <label for="correo">Correo:</label>
-        <input type="email" name="correo" />
-      </div>
-
-      <div>
-        <label for="mensaje">Deja tu mensaje</label>
-        <textarea name="mensaje" cols="40" rows="10"></textarea>
-      </div>
-
-      <div>
-        <input type="button" value="Holi" />
-        <!-- nos va a servir en js -->
-
-        <input type="reset" value="Limpiar campos" /><!-- para borrar todo -->
-
-        <input type="submit" value="Enviar" />
-        <!-- para enviar el formulario -->
-      </div>
-    </form>
+      </form>
+    </section>
   </main>
 
+  <main>
+
+  </main>
 
   <footer>
 
 
     <ul class="redesSociales">
       <li>
-        <h5>INSTAGRAM</h5> 
+        <h5>INSTAGRAM</h5>
         <a href="https://instagram.com/renovatuoutfit_?igshid=YmMyMTA2M2Y=">
           <img src="../images/Instagram.png" alt="logoInstagram">
         </a>

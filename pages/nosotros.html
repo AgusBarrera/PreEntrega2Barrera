@@ -9,31 +9,38 @@
   <title>Nosotros</title>
 
   <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+
+  
+  <!-- link de bootStrap -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- link propio -->
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul class="menu">
-        <li><a href="../index.html"> Inicio</a></li>
-        <li>
-          <a href="ellas.html"> Ellas </a>
+    <nav class="navBar">
+      <ul class="navBarList">
+        <li class="navBarItem">
+          <a class="navLink " href="../index.html"> Inicio</a>
+        </li>
+
+        <li class="navBarItem">
+          <a class="navLink" href="productos.html">Productos </a>
           <ul class="subMenu">
-            <li>Remeras</li>
-            <li>Pantalones</li>
-            <li>Abrigos</li>
+            <li class="subMenuItem" a href="Remeras"> Remeras</li>
+            <li class="subMenuItem" a href="Pantalones">Pantalones</li>
+            <li class="subMenuItem" a href="Abrigos">Abrigos</li>
           </ul>
         </li>
-        <li>
-          <a href="ellos.html"> Ellos </a>
-          <ul class="subMenu">
-            <li>Remeras</li>
-            <li>Pantalones</li>
-            <li>Abrigos</li>
-          </ul>
+
+        <li class="navBarItem">
+          <a class="navLink active" href="nosotros.html"> Nosotros </a>
         </li>
-        <li><a href="nosotros.html"> Nosotros </a></li>
-        <li><a href="contacto.html"> Contacto </a></li>
+        <li class="navBarItem">
+          <a class="navLink" href="contacto.html"> Contacto </a>
+        </li>
       </ul>
     </nav>
   </header>
