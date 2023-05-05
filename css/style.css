@@ -8,11 +8,11 @@ html {
 
 /* Desde aca se estila todo lo que esta dentro del Header */
 header {
-    background-color: #283618;
+    background-color: #464646;
     font-size: 5rem;
     height: 180px;
-    padding-top: 20px;
-    padding-right: 5px;
+    padding-top: 5px;
+    padding-right: 0px;
     padding-bottom: 20px;
     padding-left: 5px;
     justify-content: center;
@@ -24,149 +24,59 @@ li {
 }
 
 body {
-    background-color: #606c38;
+    background-color: #464646;
 }
 
-p {
+
+/* p {
     font-size: 20px;
     height: 350px;
     color: white;
     margin-bottom: 60px;
     margin-top: 50px;
 
-}
+} */
 
 
 /* Aca se estila el Menu y Submenu */
 
 /* Menu principal (inicio,ellas,ellos,nosotros,contacto */
 
-.navbar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- 
-}
-.navBarList{
-    display: flex;
-    justify-content:center ;
-    font-size: 30px;
-    
-}
-
-.navBarItem{
-    display: inline-block;
-    text-decoration: none;
-    
-}
-
-.navLink{
-    color: blanchedalmond;
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none
-
-}
-
-a {
-    text-decoration: none;
-}
-
-a:link, a:visited { 
-    text-decoration: none;
-    
-}
-
-.subMenu{
-    display: none;
-    position: absolute;
-}
-
-.subMenuItem{
-padding: 10px;
-}
-
-.subMenuItem li ul{
-    list-style-type: none;
-}
-
-.subMenuItem a{
-    color: blanchedalmond;
-}
-
-.subMenuItem:hover{
-    background-color: gray;
-    
-}
-
-
-
-.navBarItem:hover ul{
-    display: block;
-}
-
-.navLink:hover{
-    color: gray;
-   
-}
-
 .active {
     color: yellow;
 }
 
-/* 
-nav {
+.container-fluid {
+    padding: 20px;
+
+
+}
+
+.dropdown-item {
+    font-size: 20px;
+}
+
+.navbar-nav {
+    font-size: 30px;
+    position: relative;
+    left: 600px;
+
+}
+
+.navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    list-style: none;
-}
 
-a {
-    text-decoration: none;
-    color: white;
 }
 
 
-.menu li {
-    display: inline-block;
+.navBarList {
+    display: flex;
+    justify-content: center;
     font-size: 30px;
-    padding: 30px 30px;
-
 }
 
-
-.menu li ul  {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    left: 37%;
-}
-
-
-
-.subMenu li {
-    background-color: rgb(84, 85, 84);
-    color: white;
-    display: block;
-    padding: 1px 1px;
-}
-
-
-
-ul {
-    list-style-type: none;
-    color: gray;
-    font-size: 5px;
-
-}
-
-.menu li:hover .subMenu {
-    display:block;
-
-
-}
- */
 /* Aca estilamos las imagenes de los productos */
 
 .contenedorFotos {
@@ -187,6 +97,41 @@ ul {
 .fotos {
     text-align: center;
 }
+
+
+/* ESTILO DE NOSOTROS */
+
+.section {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 900px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    top: 100px;
+
+}
+
+.section img {
+    width: 300px;
+    border-radius: 30px;
+    border: dashed 3px white;
+}
+
+.section h1 {
+    margin: 0;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+.section p {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
 
 /* SE ESTILA LA PARTE DE CONTACTO */
 
@@ -229,10 +174,11 @@ form input[type="number"] {
     display: inline block;
 }
 
-button{
+button {
     text-align: center;
     justify-content: center;
 }
+
 .submitbutton {
     width: 300px;
     padding: 10px 16px;
@@ -246,15 +192,23 @@ button{
     cursor: pointer;
 }
 
+/* ACA SE ESTILA EL */
+
 footer {
-    margin-top: 300px;
-    background-color: #283618;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 800px;
+    background-color: #f6f6f6;
     text-align: center;
+
 }
-h5{
-    color: blanchedalmond;
+
+h5 {
+    color: black;
     padding: 30px;
 }
+
 footer ul {
     display: flex;
     justify-content: space-around;
