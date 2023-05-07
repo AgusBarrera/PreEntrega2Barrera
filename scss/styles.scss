@@ -1,9 +1,11 @@
-/* html {
+html {
     font-size: 62.5%;
+    /* cambiamos la medida del REM 
+                        Antes 1rem=16px
+                        Ahora 1rem=10px*/
 }
- */
-/* Desde aca se estila todo lo que esta dentro del Header */
-/* header {
+
+header {
     background-color: #464646;
     font-size: 5rem;
     height: 180px;
@@ -12,38 +14,20 @@
     padding-bottom: 20px;
     padding-left: 5px;
     justify-content: center;
-} */
+}
 
-
-/* li {
+li {
     margin: 10px 10px 10px 10px;
 }
 
 body {
     background-color: #464646;
-} */
-
-
-/* p {
-    font-size: 20px;
-    height: 350px;
-    color: white;
-    margin-bottom: 60px;
-    margin-top: 50px;
-
-} */
-
-
-/* Aca se estila el Menu y Submenu */
-
-/* Menu principal (inicio,ellas,ellos,nosotros,contacto */
+}
 
 
 
-/* .container-fluid {
+.container-fluid {
     padding: 20px;
-
-
 }
 
 .dropdown-item {
@@ -54,7 +38,6 @@ body {
     font-size: 30px;
     position: relative;
     left: 600px;
-
 }
 
 .navbar {
@@ -69,11 +52,9 @@ body {
     display: flex;
     justify-content: center;
     font-size: 30px;
-} */
+}
 
-/* Aca estilamos las imagenes de los productos */
-
-/* .contenedorFotos {
+.contenedorFotos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
@@ -90,12 +71,10 @@ body {
 
 .fotos {
     text-align: center;
-} */
+}
 
 
-/* ESTILO DE NOSOTROS */
-
-/* .section {
+.section {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
@@ -106,35 +85,27 @@ body {
     box-shadow: 10px 10px 10px black;
     position: relative;
     top: 100px;
-
-}
-
-.section img {
+    img{
     width: 300px;
     border-radius: 30px;
     border: dashed 3px white;
-}
-
-.section h1 {
+    }
+    h1{
     margin: 0;
     color: darkgoldenrod;
     font-size: 30px;
-}
-
-.section p {
+    }
+    p{
     font-size: 15px;
     margin-right: 10px;
-} */
+    }
+}
 
-
-/* SE ESTILA LA PARTE DE CONTACTO */
-
-
-/* .Titleform {
+.Titleform {
     text-align: center;
-} */
+}
 
-/* form {
+form {
 
     width: 400px;
     padding: 16px;
@@ -144,49 +115,49 @@ body {
     top: 220px;
     max-height: 500px;
     background-color: grey;
-}
 
-form label {
-    width: 90px;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 15px;
-} */
-
-/* form input[type="text"],
-form input[type="email"],
-form input[type="number"] {
+    label{
+        width: 90px;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 15px;
+    }
+    }
 
 
-    width: 180px;
-    padding: 10px 10px;
-    border: 1px solid #f6f6f6;
-    border-radius: 3px;
-    background-color: #f6f6f6;
-    margin: 8px 0px;
-    display: inline block;
-} */
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="number"] {
+    
+    
+        width: 180px;
+        padding: 10px 10px;
+        border: 1px solid #f6f6f6;
+        border-radius: 3px;
+        background-color: #f6f6f6;
+        margin: 8px 0px;
+        display: inline block;
+    }
 
-/* button {
-    text-align: center;
-    justify-content: center;
-}
+    button {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .submitbutton {
+        width: 300px;
+        padding: 10px 16px;
+        margin-top: 2rem;
+        background-color: black;
+        border-radius: 5px;
+        color: antiquewhite;
+    }
+    
+    .submitbutton {
+        cursor: pointer;
+    }
 
-.submitbutton {
-    width: 300px;
-    padding: 10px 16px;
-    margin-top: 2rem;
-    background-color: black;
-    border-radius: 5px;
-    color: antiquewhite;
-}
-
-.submitbutton {
-    cursor: pointer;
-} */
-
-/* ACA SE ESTILA EL */
-/* 
+    
 footer {
     display: flex;
     justify-content: center;
@@ -215,4 +186,3 @@ h5 {
 img {
     width: 60px;
 }
- */

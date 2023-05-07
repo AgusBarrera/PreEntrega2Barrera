@@ -1,9 +1,13 @@
-/* html {
+html {
     font-size: 62.5%;
+    /* cambiamos la medida del REM 
+                        Antes 1rem=16px
+                        Ahora 1rem=10px*/
+
 }
- */
+
 /* Desde aca se estila todo lo que esta dentro del Header */
-/* header {
+header {
     background-color: #464646;
     font-size: 5rem;
     height: 180px;
@@ -12,16 +16,16 @@
     padding-bottom: 20px;
     padding-left: 5px;
     justify-content: center;
-} */
+}
 
 
-/* li {
+li {
     margin: 10px 10px 10px 10px;
 }
 
 body {
     background-color: #464646;
-} */
+}
 
 
 /* p {
@@ -38,9 +42,11 @@ body {
 
 /* Menu principal (inicio,ellas,ellos,nosotros,contacto */
 
+.active {
+    color: yellow;
+}
 
-
-/* .container-fluid {
+.container-fluid {
     padding: 20px;
 
 
@@ -69,11 +75,11 @@ body {
     display: flex;
     justify-content: center;
     font-size: 30px;
-} */
+}
 
 /* Aca estilamos las imagenes de los productos */
 
-/* .contenedorFotos {
+.contenedorFotos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
@@ -90,12 +96,12 @@ body {
 
 .fotos {
     text-align: center;
-} */
+}
 
 
 /* ESTILO DE NOSOTROS */
 
-/* .section {
+.section {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
@@ -124,17 +130,18 @@ body {
 .section p {
     font-size: 15px;
     margin-right: 10px;
-} */
+}
 
 
 /* SE ESTILA LA PARTE DE CONTACTO */
 
 
-/* .Titleform {
+.Titleform {
     text-align: center;
-} */
 
-/* form {
+}
+
+form {
 
     width: 400px;
     padding: 16px;
@@ -151,9 +158,9 @@ form label {
     font-weight: bold;
     display: inline-block;
     font-size: 15px;
-} */
+}
 
-/* form input[type="text"],
+form input[type="text"],
 form input[type="email"],
 form input[type="number"] {
 
@@ -165,9 +172,9 @@ form input[type="number"] {
     background-color: #f6f6f6;
     margin: 8px 0px;
     display: inline block;
-} */
+}
 
-/* button {
+button {
     text-align: center;
     justify-content: center;
 }
@@ -183,10 +190,10 @@ form input[type="number"] {
 
 .submitbutton {
     cursor: pointer;
-} */
+}
 
 /* ACA SE ESTILA EL */
-/* 
+
 footer {
     display: flex;
     justify-content: center;
@@ -194,6 +201,7 @@ footer {
     margin-top: 800px;
     background-color: #f6f6f6;
     text-align: center;
+
 }
 
 h5 {
@@ -215,4 +223,3 @@ h5 {
 img {
     width: 60px;
 }
- */
